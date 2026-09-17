@@ -1,6 +1,6 @@
 {
-  "name": "Recta - Gerenciador Financeiro",
-  "short_name": "Recta",
+  "name": "Safinance - Gerenciador Financeiro",
+  "short_name": "Safinance",
   "description": "Controle suas finanças em um só lugar. Gerencie contas, cartões, orçamentos e metas de economia.",
   "start_url": "/",
   "display": "standalone",

@@ -32,9 +32,18 @@ const serviceWorkerVersionPlugin = () => {
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react(), serviceWorkerVersionPlugin()],
+  server: {
+    host: true,
+    port: 5173,
+  },
+  preview: {
+    host: true,
+    port: 5173,
+  },
   define: {
     'import.meta.env.VITE_APP_VERSION': JSON.stringify(packageJson.version),
   },
+
   build: {
     // Optimize chunk splitting for better caching
     rollupOptions: {

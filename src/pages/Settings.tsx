@@ -508,7 +508,7 @@ const SettingsPage = () => {
         </h2>
         <p className="text-sm font-light text-gray-500 dark:text-gray-400 mb-4">
           {t.pwaInfoDescription ||
-            "Instale o Recta na tela inicial do seu celular ou computador para acesso rápido e melhor experiência!"}
+            "Instale o Safinance na tela inicial do seu celular ou computador para acesso rápido e melhor experiência!"}
         </p>
 
         {isInstalled ? (
@@ -902,7 +902,7 @@ const SettingsPage = () => {
         </div>
       </div>
 
-      {/* Resetar Conta do Recta */}
+      {/* Resetar Conta do Safinance */}
       <div className="bg-white dark:bg-gray-900 border border-orange-200 dark:border-orange-800 rounded-lg p-4 sm:p-6 mb-4 sm:mb-6">
         <h2 className="text-lg sm:text-xl font-light tracking-tight text-gray-900 dark:text-white mb-4 flex items-center">
           <RefreshCcw className="h-5 w-5 mr-2 text-orange-500" />
