@@ -76,6 +76,7 @@ const Login = () => {
       }
       navigate('/app');
     } catch (err: any) {
+      console.error('Login error:', err);
       setError(sanitizeFirebaseError(err) || t.loginError);
     } finally {
       setLoading(false);
@@ -89,6 +90,7 @@ const Login = () => {
       await loginWithGoogle(referralCode);
       navigate('/app');
     } catch (err: any) {
+      console.error('Google login error:', err);
       setError(sanitizeFirebaseError(err) || t.googleLoginError);
     } finally {
       setLoading(false);

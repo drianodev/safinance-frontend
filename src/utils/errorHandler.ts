@@ -13,7 +13,7 @@ export function sanitizeFirebaseError(error: any): string {
    
   const errorMessages: Record<string, string> = {
     // Authentication errors
-    'auth/email-already-in-use': 'Este email ja esta em uso.',
+    'auth/email-already-in-use': 'Este email ja esta cadastrado. Clique em "faça login" para entrar.',
     'auth/invalid-email': 'Email invalido.',
     'auth/operation-not-allowed': 'Operacao nao permitida.',
     'auth/weak-password': 'A senha deve ter pelo menos 6 caracteres.',
@@ -23,6 +23,10 @@ export function sanitizeFirebaseError(error: any): string {
     'auth/invalid-credential': 'Email ou senha incorretos.',
     'auth/too-many-requests': 'Muitas tentativas. Tente novamente mais tarde.',
     'auth/network-request-failed': 'Erro de conexao. Verifique sua internet.',
+    'auth/popup-blocked': 'O popup de autenticação foi bloqueado pelo navegador. Permita popups para este site ou entre com email e senha.',
+    'auth/popup-closed-by-user': 'A janela de autenticação foi fechada antes de concluir.',
+    'auth/cancelled-popup-request': 'A autenticação foi cancelada.',
+    'auth/account-exists-with-different-credential': 'Já existe uma conta associada a este email.',
     
     // Firestore errors
     'permission-denied': 'Voce nao tem permissao para realizar esta acao.',
