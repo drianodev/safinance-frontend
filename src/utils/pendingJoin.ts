@@ -2,7 +2,7 @@
  * A join link opened while signed out: the code waits here (this tab only) until login, then the
  * app goes back to /join/<code> instead of the dashboard.
  */
-const KEY = 'recta_pending_join_code';
+const KEY = 'safinance_pending_join_code';
 
 export function savePendingJoin(code: string): void {
   try {

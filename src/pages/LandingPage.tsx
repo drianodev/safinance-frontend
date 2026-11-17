@@ -560,7 +560,7 @@ const LandingPage = () => {
         </section>
       </main>
 
-      {/* Footer: same structure as the other oprimo.dev product sites (brand, product, legal, more apps, rights) */}
+      {/* Footer: same structure as the other safinance.app product sites (brand, product, legal, more apps, rights) */}
       <footer className="bg-ink text-paper/70 border-t border-white/5 pt-14 pb-9">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 grid gap-10 sm:grid-cols-2 lg:grid-cols-[1.6fr_1fr_1fr_1.2fr]">
           <div>
@@ -610,7 +610,7 @@ const LandingPage = () => {
 
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 mt-10">
           <p className="border-t border-white/10 pt-5 text-[13px] text-paper/45">
-            © {new Date().getFullYear()} PRIMODEV CONSULTORIA EM TI LTDA · oprimo.dev
+            © {new Date().getFullYear()} Safinance · Todos os direitos reservados
           </p>
         </div>
       </footer>
@@ -639,7 +639,7 @@ type LandingTranslations = ReturnType<typeof useI18n>['t'];
 
 const footerLink = 'text-[14.5px] text-paper/70 hover:text-paper hover:underline underline-offset-2 transition-colors';
 
-/** A titled link list in the footer, same typography as the other oprimo.dev sites. */
+/** A titled link list in the footer, same typography as the other safinance.app sites. */
 const FooterColumn = ({ title, children }: { title: string; children: ReactNode }) => (
   <nav aria-label={title}>
     <h2 className="mb-3 text-xs font-semibold uppercase tracking-[0.14em] text-paper/45">{title}</h2>

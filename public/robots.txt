@@ -5,5 +5,4 @@ Disallow: /login
 Disallow: /join/
 Disallow: /api/
 
-Sitemap: https://www.recta.app/sitemap.xml
-
+Sitemap: https://safinance.app/sitemap.xml

@@ -146,10 +146,10 @@ export const NO_FAILURES: FailureState = { count: 0, lockedUntil: 0 };
 
 type KV = Pick<Storage, 'getItem' | 'setItem' | 'removeItem'>;
 
-const configKey = (uid: string) => `recta:appLock:${uid}`;
-const failuresKey = (uid: string) => `recta:appLock:${uid}:failures`;
-const unlockedKey = (uid: string) => `recta:appLock:${uid}:unlocked`;
-const activityKey = (uid: string) => `recta:appLock:${uid}:activity`;
+const configKey = (uid: string) => `safinance:appLock:${uid}`;
+const failuresKey = (uid: string) => `safinance:appLock:${uid}:failures`;
+const unlockedKey = (uid: string) => `safinance:appLock:${uid}:unlocked`;
+const activityKey = (uid: string) => `safinance:appLock:${uid}:activity`;
 
 const safeGet = (store: KV | undefined, key: string): string | null => {
   try { return store?.getItem(key) ?? null; } catch { return null; }

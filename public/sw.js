@@ -1,4 +1,4 @@
-const CACHE_NAME = 'recta-v2';
+const CACHE_NAME = 'safinance-v1';
 const urlsToCache = [
   '/',
   '/index.html'
