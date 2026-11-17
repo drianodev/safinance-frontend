@@ -189,7 +189,7 @@ const Support = () => {
                       geralmente em até 24 horas úteis.
                     </p>
                     <p className="text-brand font-medium mt-2">
-                      apps@oprimo.dev
+                      contato@safinance.app
                     </p>
                   </div>
                 </div>
@@ -201,7 +201,7 @@ const Support = () => {
                       Feedback e Sugestões
                     </h3>
                     <p className="text-content-secondary">
-                      Tem uma ideia para melhorar o Recta? Adoraríamos ouvir! Use o modal de feedback 
+                      Tem uma ideia para melhorar o Safinance? Adoraríamos ouvir! Use o modal de feedback 
                       dentro do aplicativo (disponível no menu de comandos) ou envie um e-mail.
                     </p>
                   </div>
@@ -213,7 +213,7 @@ const Support = () => {
           {/* Tips Section */}
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-content mb-6">
-              Dicas para Usar o Recta
+              Dicas para Usar o Safinance
             </h2>
 
             <div className="grid md:grid-cols-2 gap-6">
